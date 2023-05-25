@@ -1,15 +1,13 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-.footer {
-  background-color: black;
-  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
