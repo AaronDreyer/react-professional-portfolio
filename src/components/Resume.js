@@ -10,7 +10,7 @@ export default function Resume() {
             <div className="resumeBody">
                 <div className="resumeContainer">
                     <h2>Download my Resume!</h2>
-                    <a href="/resume.pdf" target="_blank" rel="noreferrer">
+                    <a href="/Professional-Resume.pdf" target="_blank" rel="noreferrer">
                         <button className="resumeButton">Click Me!</button>
                     </a>
                 </div>
