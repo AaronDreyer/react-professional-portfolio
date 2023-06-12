@@ -136,6 +136,28 @@ export default function Portfolio() {
 </div>
 </div>
 
+<div>
+<div className="cardContainer">
+<img src='/project-img/codecollab-for-developers.herokuapp.com_.png' alt='placeholder' style={{ marginTop: '10px', maxWidth: '50%', maxHeight: '50%', objectFit: 'contain' }}/>
+  <div>
+    <h1 className="cardTitle">Code Collab</h1>
+    <div>
+      <p className="cardDescription">
+      This is a react app using the MERN stack structure to create a social media blog for recent Georgia Tech Bootcamp graduates to keep in touch and share resources.
+      </p>
+    </div>
+  </div>
+  <div className="cardFooter">
+    <button>
+    <a href="https://github.com/blairrrrwho/codecollab">Repository</a>
+    </button>
+    <button>
+    <a href="https://codecollab-for-developers.herokuapp.com/">Visit Site!</a>
+    </button>
+  </div>
+</div>
+</div>
+
 </div>
   );
 }
